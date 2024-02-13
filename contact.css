@@ -1,0 +1,31 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(64, 81, 78);
+    padding: 20px;
+}
+
+h1 {
+    color: rgb(102, 191, 191);
+}
+
+label {
+    font-weight: 500;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: rgb(102, 191, 191);
+    margin-top: 10px;
+    padding: 8px 26px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 99px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: color-mix(in srgb, rgb(102, 191, 191) 70%, #fff 30%);
+}
