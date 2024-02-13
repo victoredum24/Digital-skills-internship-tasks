@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
 </head>
+<body>
 <body>
     <img src="profile.png" alt="profile img">
     <h1>Hello.</h1>
     <p>My name is Victor Edum <br> I'm a 300L computer science student of the University of Calabar.</p>
     <h2>Skills</h2>
     <ul class="skills">
-        <li>Html</li>
-        <li>Css</li>
+        <li>html</li>
+        <li>css</li>
     </ul>
     <h2>Hobbies</h2>
     <ul>
@@ -21,5 +22,18 @@
         <li>Gaming</li>
     </ul>
     <a href="contact.html">Contact Me</a>
+    <button id="showButton">Show Socials</button>
+    <div id="contentSection">
+        <ul class="social-list">
+            <li><a href="mailto:victoredum24@gmail.com"><img src="icons/envelope.svg" alt=""></a></li>
+            <li><a href="https://x.com/victor__edum?s=20"><img src="icons/x-twitter.svg" alt=""></a></li>
+            <li><a href="https://linkedin.com/in/victor-edum-46bbba240"><img src="icons/linkedin-in.svg" alt=""></a></li>
+            <li><a href="https://discordapp.com/users/1111380582778294382"><img src="icons/discord (1).svg" alt=""></a></li>
+            <li><a href="https://github.com/victoredum24"><img src="icons/github.svg" alt=""></a></li>
+        </ul>
+        <button id="hideButton">Hide Socials</button>
+    </div>
+
+    <script src="main.js"></script>
 </body>
 </html>
